@@ -1,4 +1,13 @@
-# progettowebdesign
-Progetto per il corso di Web Design
+### Università di Venezia Ca Foscari
+#### A.A. 2017/2018 - Corso di Web Design
 
-Clicca [qui](https://gregsgroup.github.io/progettowebdesign/site/) per vedere il sito!
+# Progetto
+Agenzia Giornalistica
+
+
+## Autori
+#### Greg's Group
+- [Enrico Vettori](https://github.com/enricovettori93)
+- [Alessia Marostica](https://github.com/alessiamarostica)
+- [Elena Rossetto](https://github.com/elenaross)
+- [Giacomo Zanatta](https://github.com/giacomozanatta)
