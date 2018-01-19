@@ -41,3 +41,20 @@ footer {
     margin-bottom: 3px;
     font-size: .8em;
 }
+
+.input-group{
+    width: 100%;
+}
+
+.container text-center{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width : 768px) {
+    .input-group{
+        width: 15%;
+        float: right;
+        margin-top: .5em;
+    }
+}
