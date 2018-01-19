@@ -94,6 +94,20 @@ background-color: black;
     margin-bottom: 2em;
 }
 
+/*------- CSS RICERCA --------*/
+.searchimg{
+    width:70%;
+    height:70%;
+}
+
+.row.search{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.searchtitlearticle{
+    font-weight: bold;
+}
+
 @media only screen and (min-width : 768px) {
     .input-group{
         width: 15%;
@@ -101,6 +115,7 @@ background-color: black;
         margin-top: .5em;
     }
 }
+/*------- FINE CSS RICERCA --------*/
 
 @media (max-width: 600px) {
     .footer-basic-centered{
