@@ -75,7 +75,7 @@ background-color: black;
     }
 }
 
-/*footer*/
+/*--------------FOOTER--------------*/
 .footer-basic-centered{
     background-color: #37474F;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -86,14 +86,14 @@ background-color: black;
 
 }
 .footer-basic-centered .footer-links{
-    padding: 35px 0 23px;
+    padding: 1.6em 0 1.4em;
 
 }
 
 .footer-basic-centered .footer-links a{
     display:inline-block;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left:1em;
     margin-right:1em;
     color: #BDBDBD;
@@ -101,11 +101,12 @@ background-color: black;
 .footer-basic-centered .footer-links a:hover{
     display:inline-block;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left:1em;
     margin-right:1em;
     color: white;
 }
+/*--------------FINE FOOTER--------------*/
 
 .modal-dialog.modal-lg{
     width: 90%;
@@ -122,6 +123,10 @@ background-color: black;
 
 .titlearticle.home{
     margin-top: .5em;
+}
+
+#path{
+    margin-left: 1em;
 }
 
 /*------- CSS RICERCA --------*/
