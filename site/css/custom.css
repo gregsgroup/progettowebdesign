@@ -1,3 +1,10 @@
+html{
+    height:100%;
+    }
+
+body{
+height:100%;
+    }
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
     margin-bottom: 0;
@@ -20,7 +27,7 @@
     padding: 0px;
 }
 .input-group #searchtext{
-    background-color: #37474F;
+    background-color: white;
     color: white;
 }
 .btn-search-nav{
@@ -28,7 +35,7 @@
     color: #BDBDBD;
 }
 .btn-search-nav:hover{
-    background-color: #BDBDBD;
+    background-color: white;
     color: #37474F;
 }
 /*.navbar-inverse .navbar-nav > .open > a {
@@ -36,24 +43,24 @@ color: white;
 background-color: black;
 }*/
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-    color: #BDBDBD;
+    color: white;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #37474F;
-    background-color: #BDBDBD;
+    background-color: white;
 }
 .navbar-nav > li > .dropdown-menu{
-    color: #BDBDBD;
+    color: white;
     background-color: #37474F;
 }
 
 .navbar-nav .dropdown-menu > li > a{
-    color: #BDBDBD;
+    color: white;
     background-color: #37474F;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
-    background-color: #BDBDBD;
+    background-color: white;
     color: #37474F;
 }
 .dropdown-menu > li > a:focus {
@@ -78,6 +85,10 @@ background-color: black;
 /*--------------FOOTER--------------*/
 .footer-basic-centered{
     background-color: #37474F;
+    bottom: 0;
+
+    /* Set the fixed height of the footer here */
+
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -96,7 +107,7 @@ background-color: black;
     font-size: 1.1em;
     margin-left:1em;
     margin-right:1em;
-    color: #BDBDBD;
+    color: white;
 }
 .footer-basic-centered .footer-links a:hover{
     display:inline-block;
@@ -197,6 +208,43 @@ background-color: black;
         margin-top: 2em;
         margin-bottom: 2em;
     }
+}
 
+/*---------- NAVBAR COLLAPSE --------- */
 
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }
