@@ -81,7 +81,7 @@
                     <div class="input-group">
                         <input id="searchtext" type="text" class="form-control" placeholder="Ricerca">
                         <span class="input-group-btn">
-                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal">Cerca</a>
+                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal" id="searchbtn">Cerca</a>
                         </span>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                 </div>
             </div>
         </div>
-        
+
         <footer class="container-fluid text-center footer-basic-centered">
             <div class="footer-links">
                 <a href="#">Social Media</a>
@@ -265,4 +265,10 @@
             </div>
         </div>
     </body>
+    <script>
+        $("#searchbtn").on('click',function(){
+            var text = document.getElementById("searchtext").value;
+            document.getElementById("query").value = text;
+        });
+    </script>
 </html>

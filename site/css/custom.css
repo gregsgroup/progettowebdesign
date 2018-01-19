@@ -28,7 +28,6 @@ body{
 }
 .input-group #searchtext{
     background-color: white;
-    color: white;
 }
 .btn-search-nav{
     background-color: #37474F;
@@ -126,7 +125,7 @@ background-color: black;
 .container{
     margin-top: 2em;
     margin-bottom: 2em;
-    min-width: 100%;
+    min-height: 100%;
 }
 
 .titlearticle{
