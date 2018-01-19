@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sidr Plugin with Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet"
+        media="screen">
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- sidr dark theme css -->
+    <link href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css"
+        rel="Stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" id="btnRespNav" class="btn btn-navbar" style="float: left">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                    </span>
+                </button>
+                <a class="brand" href="#">IMInfo.in</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap.min.js"></script>
+    <!-- sidr js -->
+    <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+    <script type="text/javascript">
+ 
+        $(<span id="IL_AD3" class="IL_AD">document</span>).ready(function () {
+            $('.btn-navbar').sidr({
+                name: 'respNav',
+                source: '.nav-collapse',
+            });
+        });
+ 
+         //this code is close sidr menu if clicked outside  {optional}
+         $(document).bind("click", function () {
+             $.sidr('close', 'respNav');
+         });
+    </script>
+</body>
+</html>
+tes
