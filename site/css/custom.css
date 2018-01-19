@@ -59,6 +59,7 @@
     }
 }
 
+<<<<<<< HEAD
 /*footer*/
 .footer-basic-centered{
 	    background-color: #96858F;
@@ -106,3 +107,32 @@
         color: white;
 
 }
+=======
+#path{
+    width: 100%;
+    padding-left: 2em;
+}
+
+#path p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: .8em;
+}
+
+.input-group{
+    width: 100%;
+}
+
+.container text-center{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width : 768px) {
+    .input-group{
+        width: 15%;
+        float: right;
+        margin-top: .5em;
+    }
+}
+>>>>>>> b0d04099edcb164948192f4876718e9e08e2ad1c
