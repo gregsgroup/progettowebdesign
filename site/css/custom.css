@@ -30,3 +30,14 @@ footer {
         display: none; 
     }
 }
+
+#path{
+    width: 100%;
+    padding-left: 2em;
+}
+
+#path p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: .8em;
+}
