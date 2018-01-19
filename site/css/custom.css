@@ -107,10 +107,8 @@ background-color: black;
     color: white;
 }
 
-.input-group{
-    width: 100%;
-    float: right;
-    margin-top: .5em;
+.modal-dialog.modal-lg{
+    width: 90%;
 }
 
 .container{
@@ -130,6 +128,12 @@ background-color: black;
 }
 .searchtitlearticle{
     font-weight: bold;
+}
+
+.input-group{
+    width: 100%;
+    float: right;
+    margin-top: .5em;
 }
 
 @media only screen and (min-width : 768px) {
