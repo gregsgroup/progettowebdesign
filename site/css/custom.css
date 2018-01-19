@@ -17,8 +17,8 @@
 }
 
 /*.navbar-inverse .navbar-nav > .open > a {
-    color: white;
-    background-color: black;
+color: white;
+background-color: black;
 }*/
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
     color: white;
@@ -59,68 +59,34 @@
     }
 }
 
-<<<<<<< HEAD
 /*footer*/
 .footer-basic-centered{
-	    background-color: #96858F;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	padding: 0px;
+    background-color: #96858F;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
 
 }
 .footer-basic-centered .footer-links{
-	padding: 35px 0 23px;
-	
+    padding: 35px 0 23px;
+
 }
 
 .footer-basic-centered .footer-links a{
-	display:inline-block;
-	text-decoration: none;
+    display:inline-block;
+    text-decoration: none;
     font-size: 1.3em;
-	margin-left:1em;
+    margin-left:1em;
     margin-right:1em;
     color: white;
-}
-@media (max-width: 600px) {
-
-	.footer-basic-centered{
-		padding: 35px;
-	}
-
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
-
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
-
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-        color: white;
-
-}
-=======
-#path{
-    width: 100%;
-    padding-left: 2em;
-}
-
-#path p{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    font-size: .8em;
 }
 
 .input-group{
     width: 100%;
+    float: right;
+    margin-top: .5em;
 }
 
 .container{
@@ -135,4 +101,49 @@
         margin-top: .5em;
     }
 }
->>>>>>> b0d04099edcb164948192f4876718e9e08e2ad1c
+
+@media (max-width: 600px) {
+    .footer-basic-centered{
+        padding: 35px;
+    }
+
+    .footer-basic-centered .footer-company-motto{
+        font-size: 18px;
+    }
+
+    .footer-basic-centered .footer-company-name{
+        font-size: 12px;
+    }
+
+    .footer-basic-centered .footer-links{
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+
+    .footer-basic-centered .footer-links a{
+        line-height: 1.8;
+        color: white;
+
+    }
+    #path{
+        width: 100%;
+        padding-left: 2em;
+    }
+
+    #path p{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: .8em;
+    }
+
+    .input-group{
+        width: 100%;
+    }
+
+    .container{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+
+}
