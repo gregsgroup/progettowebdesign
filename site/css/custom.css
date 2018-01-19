@@ -2,21 +2,49 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    background-color: #96858F;
+
 }
 
 .navbar-brand{
     float: right;
+
 }
 
 .navbar-toggle{
+    color: white;
     float: left;
 }
 
-/* Add a gray background color and some padding to the footer */
-footer {
-    background-color: #f2f2f2;
-    padding: 25px;
+/*.navbar-inverse .navbar-nav > .open > a {
+    color: white;
+    background-color: black;
+}*/
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
 }
+.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #6D7993;
+}
+.navbar-nav > li > .dropdown-menu{
+    color: white;
+    background-color: #6D7993;
+}
+
+.navbar-nav .dropdown-menu > li > a{
+    color: white;
+    background-color: #6D7993;
+}
+.dropdown-menu > li > a:hover {
+    text-decoration: none;
+    background-color: #96858F;
+}
+.dropdown-menu > li > a:focus {
+    background-color: #96858F;
+}
+/* Add a gray background color and some padding to the footer */
+
 
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
@@ -31,6 +59,55 @@ footer {
     }
 }
 
+<<<<<<< HEAD
+/*footer*/
+.footer-basic-centered{
+	    background-color: #96858F;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+
+}
+.footer-basic-centered .footer-links{
+	padding: 35px 0 23px;
+	
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+    font-size: 1.3em;
+	margin-left:1em;
+    margin-right:1em;
+    color: white;
+}
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+        color: white;
+
+}
+=======
 #path{
     width: 100%;
     padding-left: 2em;
@@ -58,3 +135,4 @@ footer {
         margin-top: .5em;
     }
 }
+>>>>>>> b0d04099edcb164948192f4876718e9e08e2ad1c
