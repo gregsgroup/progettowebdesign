@@ -16,6 +16,14 @@
                 border-radius: 0;
             }
 
+            .navbar-brand{
+                float: right;
+            }
+
+            .navbar-toggle{
+                float: left;
+            }
+
             /* Add a gray background color and some padding to the footer */
             footer {
                 background-color: #f2f2f2;
@@ -50,24 +58,59 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informatica<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Android</a></li>
+                                <li><a href="#">Windows</a></li>
+                                <li><a href="#">iOS e OSX</a></li>
+                                <li><a href="#">Linux</a></li>
+                                <li><a href="#">Internet of things</a></li>
+                                <li><a href="#">Nuove applicazioni</a></li>
                             </ul>
                         </li>
-
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dispositivi<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Telefonia mobile</a></li>
+                                <li><a href="#">Tablet e 2-in-1</a></li>
+                                <li><a href="#">Computer</a></li>
+                                <li><a href="#">Televisione</a></li>
+                                <li><a href="#">Smartwatch</a></li>
+                                <li><a href="#">Domotica</a></li>
+                                <li><a href="#">Altro</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Innovazione tecnologica<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Sicurezza informatica</a></li>
+                                <li><a href="#">Rete</a></li>
+                                <li><a href="#">Energia rinnovabile</a></li>
+                                <li><a href="#">Intelligenza artificiale</a></li>
+                                <li><a href="#">Altro</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Archivio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conferenze<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Lista conferenze</a></li>
+                                <li><a href="#">Richiedi informazioni</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informazioni<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Contattaci</a></li>
+                                <li><a href="#">Lavora con noi</a></li>
+                                <li><a href="#">Partnership</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -110,28 +153,45 @@
             </a>
         </div>
 
-        <div class="container text-center">    
-            <h3>What We Do</h3><br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                    <p>Current Project</p>
-                </div>
-                <div class="col-sm-4"> 
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                    <p>Project 2</p>    
-                </div>
-                <div class="col-sm-4">
-                    <div class="well">
-                        <p>Some text..</p>
+        <div class="container text-center" style="margin-top: 2em; margin-bottom: 2em">
+            <div id="articoli" class="col-md-9" style="background-color: blue">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Current Project</p>
                     </div>
-                    <div class="well">
+                    <div class="col-sm-4"> 
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Project 2</p>    
+                    </div>
+                    <div class="col-sm-4"> 
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Project 2</p>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Current Project</p>
+                    </div>
+                    <div class="col-sm-4"> 
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Project 2</p>    
+                    </div>
+                    <div class="col-sm-4"> 
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                        <p>Project 2</p>    
+                    </div>
+                </div>
+            </div>
+            <div id="tagcloud" class="col-md-3" style="background-color: aquamarine">
+                <div class="row">
+                    <div class="well" style="height:100%">
                         <p>Some text..</p>
                     </div>
                 </div>
             </div>
-        </div><br>
-
+        </div>
         <footer class="container-fluid text-center">
             <p>Footer Text</p>
         </footer>
