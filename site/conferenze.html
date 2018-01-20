@@ -8,10 +8,12 @@
         <meta name="author" content="Greg's Group">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
+        <link href="css/print.css" rel="stylesheet" media="print">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
+
         <!-- NAVBAR -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -21,66 +23,66 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="#">Logo</a>
+                    <a class="navbar-brand" href="index.html">Greg's Site</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informatica<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Android</a></li>
-                                <li><a href="#">Windows</a></li>
-                                <li><a href="#">iOS e OSX</a></li>
-                                <li><a href="#">Linux</a></li>
-                                <li><a href="#">Internet of things</a></li>
-                                <li><a href="#">Nuove applicazioni</a></li>
+                                <li><a href="lista_articoli.html">Android</a></li>
+                                <li><a href="lista_articoli.html">Windows</a></li>
+                                <li><a href="lista_articoli.html">iOS e OSX</a></li>
+                                <li><a href="lista_articoli.html">Linux</a></li>
+                                <li><a href="lista_articoli.html">Internet of things</a></li>
+                                <li><a href="lista_articoli.html">Nuove applicazioni</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dispositivi<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Telefonia mobile</a></li>
-                                <li><a href="#">Tablet e 2-in-1</a></li>
-                                <li><a href="#">Computer</a></li>
-                                <li><a href="#">Televisione</a></li>
-                                <li><a href="#">Smartwatch</a></li>
-                                <li><a href="#">Domotica</a></li>
-                                <li><a href="#">Altro</a></li>
+                                <li><a href="lista_articoli.html">Telefonia mobile</a></li>
+                                <li><a href="lista_articoli.html">Tablet e 2-in-1</a></li>
+                                <li><a href="lista_articoli.html">Computer</a></li>
+                                <li><a href="lista_articoli.html">Televisione</a></li>
+                                <li><a href="lista_articoli.html">Smartwatch</a></li>
+                                <li><a href="lista_articoli.html">Domotica</a></li>
+                                <li><a href="lista_articoli.html">Altro</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Innovazione tecnologica<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Sicurezza informatica</a></li>
-                                <li><a href="#">Rete</a></li>
-                                <li><a href="#">Energia rinnovabile</a></li>
-                                <li><a href="#">Intelligenza artificiale</a></li>
-                                <li><a href="#">Altro</a></li>
+                                <li><a href="lista_articoli.html">Sicurezza informatica</a></li>
+                                <li><a href="lista_articoli.html">Rete</a></li>
+                                <li><a href="lista_articoli.html">Energia rinnovabile</a></li>
+                                <li><a href="lista_articoli.html">Intelligenza artificiale</a></li>
+                                <li><a href="lista_articoli.html">Altro</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Archivio</a></li>
+                        <li><a href="lista_articoli.html">Archivio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conferenze<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Lista conferenze</a></li>
-                                <li><a href="#">Richiedi informazioni</a></li>
+                                <li><a href="conferenze.html">Lista conferenze</a></li>
+                                <li><a href="conferenza.html">Invia una richiesta</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informazioni<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Mission</a></li>
-                                <li><a href="#">Chi siamo</a></li>
-                                <li><a href="#">Contattaci</a></li>
-                                <li><a href="#">Lavora con noi</a></li>
-                                <li><a href="#">Partnership</a></li>
+                                <li><a href="mission.html">Mission</a></li>
+                                <li><a href="chi_siamo.html">Chi siamo</a></li>
+                                <li><a href="contattaci.html">Contattaci</a></li>
+                                <li><a href="lavora_con_noi.html">Lavora con noi</a></li>
+                                <li><a href="partnership.html">Partnership</a></li>
                             </ul>
                         </li>
                     </ul>
                     <div class="input-group">
                         <input id="searchtext" type="text" class="form-control" placeholder="Ricerca">
                         <span class="input-group-btn">
-                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal">Cerca</a>
+                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal" id="searchbtn">Cerca</a>
                         </span>
                     </div>
                 </div>
@@ -88,30 +90,164 @@
         </nav>
 
         <!-- PATH -->
-        <div id="path" class="row" style="display: none">
-            <p>HOMEPAGE</p>
+        <div id="path" class="row">
+            <p>Conferenze</p>
         </div>
+        <div class="container">
+            <div id="blog" class="row"> 
+                <div class="row blogShort">
+                    <h1>Conferenza 1</h1>
+                    <div class="col-3">
+                        <img src="img/conf1.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    </div>
+                    <div class="col-7">
+                        <article><p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p></article></div>
 
-<div class="container">
-	<div class="span8">
-        <h1>Conferenza su MongoDB</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum ex eget porttitor sollicitudin. Morbi cursus tempor placerat. Pellentesque suscipit tortor in orci pretium, ac facilisis ex pretium. Fusce hendrerit orci diam, vitae tristique quam porttitor eu. Donec ligula orci, ultricies in sagittis non, porta sed lorem. Aenean interdum posuere mattis. Curabitur dignissim dictum quam, vitae malesuada velit tristique a. </p>
-        <div>
-            <div class="more label"><a href="#">Read more</a></div> 
-            <div class="tags">
-                <span class="button"><a href="#">energy</a></span><span class="btn-info"><a href="#">reality</a></span><span class="btn-info"><a href="#">world</a></span>
-            </div>    
-        </div> 
-        <div class="clear"></div>
-        <hr>
-        <h1>Article name second</h1>
-        <p>Sed interdum massa ac pretium faucibus. Integer semper euismod lorem faucibus molestie. Aenean luctus ut metus eget dignissim. Sed tincidunt augue non elementum pharetra. Suspendisse non feugiat urna. Etiam egestas neque euismod neque sollicitudin consectetur. Fusce facilisis augue a velit porta scelerisque. Sed mattis justo sapien. Sed ultrices lectus diam, id vestibulum ante finibus a. </p>
-        <div>
-            <div class="more label"><a href="#">Read more</a></div> 
-            <div class="tags">
-                <span class="btn-info"><a href="#"></a>energy</a></span><span class="btn-info"><a href="#">reality</a></span><span class="btn-info"><a href="#">world</a></span>
-            </div> 
-        </div>     
-        <hr>
-    </div>
-</div>
+                    <div class="text-center">
+                        <a class="btn btn-blog">Richiedi informazioni</a> 
+                    </div>
+                </div>
+                <div class="row blogShort">
+                    <h1>Conferenza 2</h1>
+                    <div class="col-3">
+                        <img src="img/conf2.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    </div>
+                    <div class="col-7">
+                        <article><p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p></article></div>
+                    <div class="text-center">
+                        <a class="btn btn-blog ">Richiedi informazioni</a> 
+                    </div>
+                </div>
+
+                <div class="row blogShort">
+                    <h1>Conferenza 3</h1>
+                    <div class="col-3">
+                        <img src="img/conf3.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    </div>
+                    <div class="col-7">
+                        <article><p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p></article></div>
+                    <div class="text-center">
+                        <a class="btn btn-blog ">Richiedi informazioni</a> 
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="col-md-12 gap10"></div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center footer-basic-centered">
+            <div class="footer-links">
+                <a href="#">Social Media</a>
+                <a href="#">Contatti</a>
+                <a href="#">Indice sito</a>
+                <a href="#">Copyright</a>
+            </div>
+        </footer>
+
+        <!-- MODAL DI RICERCA -->
+        <div class="modal fade" id="searchmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">CERCA</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="email" class="form-control" id="query" value="Ricerca">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Scegli la categoria <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Informatica</a></li>
+                                        <li><a href="#">Dispositivi</a></li>
+                                        <li><a href="#">Innovazione tecnologica</a></li>
+                                        <li><a href="#">Archivio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" checked>TAG
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Keywords
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row search">
+                            <div class="col-xs-3">
+                                <a href="articolo.html"><img src="img/search1.jpg" class="searchimg"></a>
+                            </div>
+                            <div class="col-xs-9">
+                                <a href="articolo.html"><p class="titlearticle">Usciti i voti di web design!</p></a>
+                                <p class="textarticle">Risultati disastrosi, il prof cerca di salvare gli studenti proponendo un orale a chi ha effettuato 5 risposte giuste su 10!</p>
+                            </div>
+                        </div>
+                        <div class="row search">
+                            <div class="col-xs-3">
+                                <a href="articolo.html"><img src="img/search2.jpg" class="searchimg"></a>
+                            </div>
+                            <div class="col-xs-9">
+                                <a href="articolo.html"><p class="titlearticle">Posticipata la consegna di web design.</p></a>
+                                <p class="textarticle">La consegna del progetto per web design è stata posticipata al 21/01.</p>
+                            </div>
+                        </div>
+                        <div class="row search">
+                            <div class="col-xs-3">
+                                <a href="articolo.html"><img src="img/search3.jpg" class="searchimg"></a>
+                            </div>
+                            <div class="col-xs-9">
+                                <a href="articolo.html"><p class="titlearticle">Consegnato il progetto di web design.</p></a>
+                                <p class="textarticle">Il gruppo ha consegnato con successo il bellissimo progetto fatto con bootstrap!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default">Affina la ricerca</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        $("#searchbtn").on('click',function(){
+            var text = document.getElementById("searchtext").value;
+            document.getElementById("query").value = text;
+        });
+    </script>
+</html>
