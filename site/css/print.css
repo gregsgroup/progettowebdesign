@@ -1,5 +1,5 @@
 /*---------CSS PER LA STAMPA---------*/
-.navbar, .carousel, .footer-basic-centered,.pagination{
+.navbar, .carousel, .footer-basic-centered,.pagination,#tagcloud{
     display: none;
 }
 .container{
