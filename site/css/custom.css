@@ -9,7 +9,7 @@ body{
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #37474F;
+    background-color: #0D47A1;
     border: 0px;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .navbar-toggle{
-    color: #37474F;
+    color: #0D47A1;
     float: left;
 }
 
@@ -27,18 +27,18 @@ body{
     padding: 0px;
 }
 .input-group #searchtext{
-    background-color: #4f6457;
+    background-color: #0D47A1;
     background-color: white;
 }
 .btn-search-nav{
-    background-color: #37474F;
+    background-color: #0D47A1;
     color: white;
 }
 .btn-search-nav:hover{
     background-color: #8085A3;
     color: white;
     background-color: white;
-    color: #37474F;
+    color: #0D47A1;
 }
 
 /*.navbar-inverse .navbar-nav > .open > a {
@@ -53,38 +53,38 @@ background-color: black;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: white;
-    background-color: #37474F;
+    background-color: #0D47A1;
 }
 .navbar-nav > li > .dropdown-menu{
     color: white;
-    background-color: #37474F;
+    background-color: #0D47A1;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #37474F;
+    color: #0D47A1;
     background-color: white;
 }
 .navbar-nav > li > .dropdown-menu{
     color: white;
-    background-color: #37474F;
+    background-color: #0D47A1;
 }
 
 .navbar-nav .dropdown-menu > li > a{
     color: white;
-    background-color: #37474F;
+    background-color: #0D47A1;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
     background-color: #8085A3;
     color: #242331;
-    background-color: #37474F;
+    background-color: #0D47A1;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
     background-color: white;
-    color: #37474F;
+    color: #0D47A1;
 }
 .dropdown-menu > li > a:focus {
-    background-color: #8085A3;
+    background-color: #0D47A1;
 }
 /* Add a gray background color and some padding to the footer */
 
@@ -104,7 +104,7 @@ background-color: black;
 
 /*--------------FOOTER--------------*/
 .footer-basic-centered{
-    background-color: #37474F;
+    background-color: #0D47A1;
     bottom: 0;
 
     /* Set the fixed height of the footer here */
