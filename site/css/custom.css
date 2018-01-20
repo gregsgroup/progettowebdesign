@@ -122,6 +122,16 @@ background-color: black;
     width: 90%;
 }
 
+#tagsarticle{
+    background-color: #eee;
+    border-radius: 5px;
+    
+}
+
+#tagsarticle p{
+    margin: .5em;
+}
+
 .container{
     margin-top: 2em;
     margin-bottom: 2em;
@@ -307,3 +317,31 @@ background-color: black;
     margin-bottom: 30px;
 }
 /*----------FINE STEP CONFERENZE---------*/
+
+/*----------TAG CLOUD----------------*/
+.teg-1
+{
+    font-size: 12px; 
+    color: rgb(52, 152, 219);
+}
+.teg-2
+{
+    font-size: 16px; 
+    color: rgb(52, 152, 219);
+}
+.teg-3
+{
+    font-size: 20px; 
+    color: rgb(52, 152, 219);
+}
+.teg-4
+{
+    font-size: 28px; 
+    color: rgb(52, 152, 219);
+}
+.teg-5
+{
+    font-size: 36px; 
+    color: rgb(70, 207, 176);
+}
+/*----------FINE TAG CLOUD-------------*/
