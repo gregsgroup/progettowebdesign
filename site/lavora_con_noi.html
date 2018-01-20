@@ -111,7 +111,46 @@
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque laoreet rutrum justo non rutrum. Sed dolor urna, dapibus id lectus malesuada, hendrerit vulputate lacus. Mauris et neque sit amet nisi fringilla suscipit vitae tempor enim. Vivamus consectetur urna metus, at vestibulum tortor bibendum vitae. Etiam efficitur sagittis dui nec facilisis. Vestibulum aliquet enim a nisi accumsan feugiat. Quisque vitae dui quis dui scelerisque convallis at sit amet est. Sed cursus venenatis tincidunt. Proin at ante commodo, gravida libero at, tincidunt nulla. Mauris semper rhoncus ex at imperdiet. Praesent tincidunt dui sed sapien laoreet consequat. Praesent ex leo, dignissim in vulputate ut, lacinia in neque. Donec nec sapien eget ligula imperdiet volutpat.</p>
                 <div class="row">
                     <div class="col-sm-12">
-                        <a href="#" class="bbtn btn-primary btn-lg" data-toggle="modal" data-target="#workmodal" role="button">Lavora con noi</a>
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="nome">Nome:</label>
+                                        <input type="text" class="form-control" id="nome">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="cognome">Cognome:</label>
+                                        <input type="text" class="form-control" id="cognome">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <label for="usr">Ruolo richiesto :</label>
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            ------ <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Ruolo-----1</a></li>
+                                            <li><a href="#">Ruolo-----2</a></li>
+                                            <li><a href="#">Ruolo-----3</a></li>
+                                            <li><a href="#">Ruolo-----4</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <label for="cv">Allega CV :</label>
+                                    <button class="btn btn-primary btn-xs" type="button" id="cv">Carica File</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="#" class="bbtn btn-primary btn-lg" data-toggle="modal" data-target="#confmodel" role="button" id="inviacandidatura">Invia la candidatura</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -202,59 +241,7 @@
                 </div>
             </div>
         </div>
-        <!--MODAL FORM DI CONTATTO-->
-        <div class="modal fade" id="workmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" id="closecandidati">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Inserisci qui i tuoi dati.</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <div class="form-group">
-                                        <label for="nome">Nome:</label>
-                                        <input type="text" class="form-control" id="nome">
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="form-group">
-                                        <label for="cognome">Cognome:</label>
-                                        <input type="text" class="form-control" id="cognome">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <label for="usr">Ruolo richiesto :</label>
-                                    <div class="btn-group">
 
-                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            ------ <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Ruolo-----1</a></li>
-                                            <li><a href="#">Ruolo-----2</a></li>
-                                            <li><a href="#">Ruolo-----3</a></li>
-                                            <li><a href="#">Ruolo-----4</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <label for="cv">Allega CV :</label>
-                                    <button class="btn btn-primary btn-xs" type="button" id="cv">Carica File</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="bbtn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#confmodel" role="button">Invia Richiesta</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!--MODAL DATI INVIATI FORM -->
         <div class="modal fade" id="confmodel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
             <div class="modal-dialog">
@@ -277,9 +264,6 @@
         $("#searchbtn").on('click',function(){
             var text = document.getElementById("searchtext").value;
             document.getElementById("query").value = text;
-        });
-        $("#closeconfirm").on('click',function(){
-            document.getElementById("closecandidati").click();
         });
     </script>
 </html>

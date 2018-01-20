@@ -112,12 +112,20 @@
                         <input type="email" class="form-control contact" id="inputemail" placeholder="Email" required>
                     </div>
                     <div class="col-xs-6">
-                        <input type="text" class="form-control contact" id="inputmotivo" placeholder="Motivo del contatto" required>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle contattaci" type="button" data-toggle="dropdown">Indicaci chi sei
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Privato</a></li>
+                                <li><a href="#">Azienda</a></li>
+                                <li><a href="#">Altro</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <textarea class="form-control contact" rows="10" id="testocontatto"></textarea>
+                        <textarea class="form-control contact" rows="10" id="testocontatto" placeholder="Scrivi il testo"></textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -213,7 +221,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- MODAL INVIO -->
         <div class="modal fade" id="sendmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
             <div class="modal-dialog">
