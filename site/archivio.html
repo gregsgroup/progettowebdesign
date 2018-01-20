@@ -8,7 +8,6 @@
         <meta name="author" content="Greg's Group">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
-        <link href="css/print.css" rel="stylesheet" media="print">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
@@ -91,31 +90,91 @@
 
         <!-- PATH -->
         <div id="path" class="row">
-            <p><a href="index.html">HOMEPAGE</a> / Informazioni</p>
+            <p><a href="index.html">HOMEPAGE</a> / archivio</p>
         </div>
-            
+
         <!-- CONTENITORE PRINCIPALE -->
-        <div class="container text-center" style="margin-top: 2em; margin-bottom: 2em">
-            <div class="col-md-12" class="textarticle">
-                <h1>Informazioni</h1>
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor orci, lobortis nec metus quis, porta mattis eros. Ut ac congue magna. Pellentesque malesuada maximus nulla, quis elementum lorem pulvinar at. Nulla consequat vestibulum mauris id porta. Praesent bibendum erat et vestibulum vulputate. Ut facilisis diam sed eros ullamcorper interdum. Mauris ut eros bibendum, pharetra est non, semper est. Morbi venenatis enim porta blandit fermentum. Phasellus egestas ex dolor, in ullamcorper metus consectetur at.</p>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque laoreet rutrum justo non rutrum. Sed dolor urna, dapibus id lectus malesuada, hendrerit vulputate lacus. Mauris et neque sit amet nisi fringilla suscipit vitae tempor enim. Vivamus consectetur urna metus, at vestibulum tortor bibendum vitae. Etiam efficitur sagittis dui nec facilisis. Vestibulum aliquet enim a nisi accumsan feugiat. Quisque vitae dui quis dui scelerisque convallis at sit amet est. Sed cursus venenatis tincidunt. Proin at ante commodo, gravida libero at, tincidunt nulla. Mauris semper rhoncus ex at imperdiet. Praesent tincidunt dui sed sapien laoreet consequat. Praesent ex leo, dignissim in vulputate ut, lacinia in neque. Donec nec sapien eget ligula imperdiet volutpat.</p>
-                <p>Maecenas vitae posuere turpis. Morbi dictum, arcu sit amet cursus rutrum, lorem quam commodo odio, vitae gravida ipsum dolor in leo. Curabitur semper sit amet felis non cursus. Nulla non pellentesque velit. Nulla vitae nulla quis dui suscipit condimentum non interdum diam. Quisque ullamcorper sagittis ligula, at feugiat lectus lacinia sed. Ut sed rhoncus nulla, at finibus ipsum.</p>
-                <h2>Cras sagittis</h2>
-                <p>Cras sagittis, lorem sit amet euismod interdum, magna lectus ornare nulla, in dapibus mi erat sit amet turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras luctus libero blandit purus varius, id hendrerit arcu rutrum. Etiam efficitur leo at erat pharetra ultricies. Pellentesque quis egestas arcu. Phasellus mollis euismod neque eu aliquet. Praesent vitae lacus et nibh aliquet maximus nec congue orci. Ut ante nulla, pharetra at elementum eu, porta a enim. Nam ac nisi sed tortor maximus congue. Cras tincidunt dignissim metus in egestas. Aliquam nec tristique enim. In molestie maximus purus, vel volutpat nibh aliquam et. Nulla sit amet luctus justo. Proin et tellus neque. Pellentesque at mi quis risus maximus fringilla eu sed enim.</p>
-                <h2>Integer id tristique odio</h2>
-                <p>Nullam sagittis odio ac risus commodo, et rutrum magna venenatis. In tincidunt fermentum magna vel imperdiet. Vivamus nisl nibh, finibus non augue in, venenatis posuere sem. Aenean enim odio, varius ac aliquam vitae, rutrum cursus tellus. Nullam sagittis sapien at leo rhoncus aliquet. Etiam id eleifend tortor. Cras vel nisi ut mi accumsan elementum eget vitae lectus. Maecenas arcu eros, fermentum et purus a, vehicula vulputate nunc. Fusce id leo pharetra, congue sapien at, sagittis ipsum. Nulla fermentum convallis velit, quis fermentum dolor iaculis et. Nunc id sapien vitae mauris malesuada euismod. Nulla facilisi. Pellentesque facilisis sit amet quam sit amet dapibus. Nam auctor lacinia augue. Duis vulputate massa ut risus vehicula varius.</p>
+        <div class="container text-center">
+            <h1>Archivio</h1>
+
+            <div id="articoli" class="col-md-12">
+                <div class="row" style="margin-bottom: 30px; margin-top: 10px;" >
+                    <div class="col-md-1">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Ordina per <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Data</a></li>
+                                <li><a href="#">Numero visualizzazioni</a></li>
+                                <li><a href="#">Ordine alfabetico</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="articolo.html"><img src="img/home1.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 1</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 2</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home3.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 3</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>    
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home3.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 3</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="articolo.html"><img src="img/home4.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 4</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home5.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 5</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home6.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 6</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                    </div>
+                    <div class="col-sm-3"> 
+                        <a href="articolo.html"><img src="img/home6.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                        <a href="articolo.html"><p class="titlearticle home">Articolo 6</p></a>
+                        <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-xs-6">
-                    <a href="lavora_con_noi.html"><button type="button" class="btn btn-primary">Lavora con noi</button></a>
-                </div>
-                <div class="col-xs-6">
-                    <a href="partnership.html"><button type="button" class="btn btn-primary">Partnership</button></a>
-                </div>
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
+
+
 
         <footer class="container-fluid text-center footer-basic-centered">
             <div class="footer-links">
@@ -196,17 +255,10 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default">Affina la ricerca</button>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
                     </div>
                 </div>
             </div>
         </div>
     </body>
-    <script>
-        $("#searchbtn").on('click',function(){
-            var text = document.getElementById("searchtext").value;
-            document.getElementById("query").value = text;
-        });
-    </script>
 </html>
