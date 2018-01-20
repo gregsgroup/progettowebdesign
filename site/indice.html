@@ -23,6 +23,7 @@
                         <span class="icon-bar"></span>                        
                     </button>
                     <a class="navbar-brand" href="index.html">Greg's Site</a>
+                    <a href="#" class="btn btn-default btn-search-nav searchdesktop" data-toggle="modal" data-target="#searchmodal" id="searchmobile"><span class="glyphicon glyphicon-search searchmobile" aria-hidden="true"></span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -59,12 +60,12 @@
                                 <li><a href="lista_articoli.html">Altro</a></li>
                             </ul>
                         </li>
-                        <li><a href="lista_articoli.html">Archivio</a></li>
+                        <li><a href="archivio.html">Archivio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conferenze<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="conferenze.html">Lista conferenze</a></li>
-                                <li><a href="conferenza.html">Invia una richiesta</a></li>
+                                <li><a href="conferenza.html">Richiedi la partecipazione</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -78,10 +79,10 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="input-group">
-                        <input id="searchtext" type="text" class="form-control" placeholder="Ricerca">
+                    <div class="input-group search">
+                        <input id="searchtext" type="text" class="form-control searchdesktop" placeholder="Ricerca">
                         <span class="input-group-btn">
-                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal" id="searchbtn">Cerca</a>
+                            <a href="#" class="btn btn-default btn-search-nav searchdesktop" data-toggle="modal" data-target="#searchmodal" id="searchbtn">Cerca</a>
                         </span>
                     </div>
                 </div>
@@ -90,72 +91,38 @@
 
         <!-- PATH -->
         <div id="path" class="row">
-            <p>HOMEPAGE / Informazioni / Lavora con noi</p>
+            <p><a href="index.html">HOMEPAGE</a> / Informazioni</p>
         </div>
-
-        <div class="container">
-            <h2>Vuoi lavorare con noi?</h2>
-            <p>Inserisci qui i tuoi dati.</p>
-            <form>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="usr">Nome:</label>
-                        <input type="text" class="form-control" id="usr">
-                    </div>
-                    <div class="form-group">
-                        <label for="usr">Cognome:</label>
-                        <input type="text" class="form-control" id="usr">
-                    </div>
-                    <div class="form-group">                           
-                        <div class="col-md-12">
-                            <label for="usr" style="margin-right: 10px; margin-left: -10px">Ruolo richiesto :</label>
-                            <div class="btn-group">
-
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    ------ <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Ruolo-----1</a></li>
-                                    <li><a href="#">Ruolo-----2</a></li>
-                                    <li><a href="#">Ruolo-----3</a></li>
-                                    <li><a href="#">Ruolo-----4</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group" style="margin-top: 20px; align-content: center;">
-                        <label for="usr" style="margin-top: 20px;">Allega CV :</label>
-                        <button class="btn btn-primary btn-xs" type="button" style="margin-top: 10px; margin-left: 20px;" >Carica File</button>
-
-                    </div>
-                    <span class="input-group-btn">
-                        <a href="#" class="bbtn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#confmodel" role="button">Invia Richiesta</a>
-                    </span>
+            
+        <!-- CONTENITORE PRINCIPALE -->
+        <div class="container text-center" style="margin-top: 2em; margin-bottom: 2em">
+            <div class="col-md-12" class="textarticle">
+                <h1>Informazioni</h1>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor orci, lobortis nec metus quis, porta mattis eros. Ut ac congue magna. Pellentesque malesuada maximus nulla, quis elementum lorem pulvinar at. Nulla consequat vestibulum mauris id porta. Praesent bibendum erat et vestibulum vulputate. Ut facilisis diam sed eros ullamcorper interdum. Mauris ut eros bibendum, pharetra est non, semper est. Morbi venenatis enim porta blandit fermentum. Phasellus egestas ex dolor, in ullamcorper metus consectetur at.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque laoreet rutrum justo non rutrum. Sed dolor urna, dapibus id lectus malesuada, hendrerit vulputate lacus. Mauris et neque sit amet nisi fringilla suscipit vitae tempor enim. Vivamus consectetur urna metus, at vestibulum tortor bibendum vitae. Etiam efficitur sagittis dui nec facilisis. Vestibulum aliquet enim a nisi accumsan feugiat. Quisque vitae dui quis dui scelerisque convallis at sit amet est. Sed cursus venenatis tincidunt. Proin at ante commodo, gravida libero at, tincidunt nulla. Mauris semper rhoncus ex at imperdiet. Praesent tincidunt dui sed sapien laoreet consequat. Praesent ex leo, dignissim in vulputate ut, lacinia in neque. Donec nec sapien eget ligula imperdiet volutpat.</p>
+                <p>Maecenas vitae posuere turpis. Morbi dictum, arcu sit amet cursus rutrum, lorem quam commodo odio, vitae gravida ipsum dolor in leo. Curabitur semper sit amet felis non cursus. Nulla non pellentesque velit. Nulla vitae nulla quis dui suscipit condimentum non interdum diam. Quisque ullamcorper sagittis ligula, at feugiat lectus lacinia sed. Ut sed rhoncus nulla, at finibus ipsum.</p>
+                <h2>Cras sagittis</h2>
+                <p>Cras sagittis, lorem sit amet euismod interdum, magna lectus ornare nulla, in dapibus mi erat sit amet turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras luctus libero blandit purus varius, id hendrerit arcu rutrum. Etiam efficitur leo at erat pharetra ultricies. Pellentesque quis egestas arcu. Phasellus mollis euismod neque eu aliquet. Praesent vitae lacus et nibh aliquet maximus nec congue orci. Ut ante nulla, pharetra at elementum eu, porta a enim. Nam ac nisi sed tortor maximus congue. Cras tincidunt dignissim metus in egestas. Aliquam nec tristique enim. In molestie maximus purus, vel volutpat nibh aliquam et. Nulla sit amet luctus justo. Proin et tellus neque. Pellentesque at mi quis risus maximus fringilla eu sed enim.</p>
+                <h2>Integer id tristique odio</h2>
+                <p>Nullam sagittis odio ac risus commodo, et rutrum magna venenatis. In tincidunt fermentum magna vel imperdiet. Vivamus nisl nibh, finibus non augue in, venenatis posuere sem. Aenean enim odio, varius ac aliquam vitae, rutrum cursus tellus. Nullam sagittis sapien at leo rhoncus aliquet. Etiam id eleifend tortor. Cras vel nisi ut mi accumsan elementum eget vitae lectus. Maecenas arcu eros, fermentum et purus a, vehicula vulputate nunc. Fusce id leo pharetra, congue sapien at, sagittis ipsum. Nulla fermentum convallis velit, quis fermentum dolor iaculis et. Nunc id sapien vitae mauris malesuada euismod. Nulla facilisi. Pellentesque facilisis sit amet quam sit amet dapibus. Nam auctor lacinia augue. Duis vulputate massa ut risus vehicula varius.</p>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="lavora_con_noi.html"><button type="button" class="btn btn-primary">Lavora con noi</button></a>
                 </div>
-            </form>
-        </div>
-        <div class="modal fade" id="confmodel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Richiesta inviata</h4>
-                    </div>
-                    <div class="modal-body">
-                        <h6>Grazie, la tua richiesta è stata inoltrata con successo!</h6>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
-                    </div>
+                <div class="col-xs-6">
+                    <a href="partnership.html"><button type="button" class="btn btn-primary">Partnership</button></a>
                 </div>
             </div>
         </div>
+
         <footer class="container-fluid text-center footer-basic-centered">
             <div class="footer-links">
-                <a href="#">Social Media</a>
-                <a href="#">Contatti</a>
-                <a href="#">Indice sito</a>
-                <a href="#">Copyright</a>
+                <a href="https://www.facebook.it">Social Media</a>
+                <a href="chi_siamo.html">Contatti</a>
+                <a href="indice.html">Indice sito</a>
+                <a href="chi_siamo.html">Copyright</a>
             </div>
         </footer>
 
