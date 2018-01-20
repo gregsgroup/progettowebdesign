@@ -2,8 +2,8 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #37474F;
-
+    background-color: #4f6457;
+    border: 0px;
 }
 
 .navbar-brand{
@@ -12,7 +12,7 @@
 }
 
 .navbar-toggle{
-    color: #BDBDBD;
+    color: #4f6457;
     float: left;
 }
 
@@ -20,44 +20,48 @@
     padding: 0px;
 }
 .input-group #searchtext{
-    background-color: #37474F;
+    background-color: #4f6457;
     color: white;
 }
 .btn-search-nav{
-    background-color: #37474F;
-    color: #BDBDBD;
+    background-color: #4f6457;
+    color: white;
 }
 .btn-search-nav:hover{
-    background-color: #BDBDBD;
-    color: #37474F;
+    background-color: #8085A3;
+    color: white;
 }
+
 /*.navbar-inverse .navbar-nav > .open > a {
 color: white;
 background-color: black;
 }*/
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-    color: #BDBDBD;
+    color: white;
+}
+.navbar-brand:focus{
+    background-color: aquamarine;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #37474F;
-    background-color: #BDBDBD;
+    color: white;
+    background-color: #4f6457;
 }
 .navbar-nav > li > .dropdown-menu{
-    color: #BDBDBD;
-    background-color: #37474F;
+    color: white;
+    background-color: #4f6457;
 }
 
 .navbar-nav .dropdown-menu > li > a{
-    color: #BDBDBD;
-    background-color: #37474F;
+    color: white;
+    background-color: #4f6457;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
-    background-color: #BDBDBD;
-    color: #37474F;
+    background-color: #8085A3;
+    color: #242331;
 }
 .dropdown-menu > li > a:focus {
-    background-color: #96858F;
+    background-color: #8085A3;
 }
 /* Add a gray background color and some padding to the footer */
 
