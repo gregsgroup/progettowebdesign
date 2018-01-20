@@ -9,7 +9,7 @@ body{
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #4f6457;
+    background-color: #37474F;
     border: 0px;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .navbar-toggle{
-    color: #4f6457;
+    color: #37474F;
     float: left;
 }
 
@@ -27,25 +27,18 @@ body{
     padding: 0px;
 }
 .input-group #searchtext{
-<<<<<<< HEAD
     background-color: #4f6457;
-    color: white;
-=======
     background-color: white;
->>>>>>> 26c4135726b9d82bb7a94f84a4435eefb846f954
 }
 .btn-search-nav{
-    background-color: #4f6457;
+    background-color: #37474F;
     color: white;
 }
 .btn-search-nav:hover{
-<<<<<<< HEAD
     background-color: #8085A3;
     color: white;
-=======
     background-color: white;
     color: #37474F;
->>>>>>> 26c4135726b9d82bb7a94f84a4435eefb846f954
 }
 
 /*.navbar-inverse .navbar-nav > .open > a {
@@ -54,19 +47,17 @@ background-color: black;
 }*/
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
     color: white;
-<<<<<<< HEAD
 }
 .navbar-brand:focus{
     background-color: aquamarine;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: white;
-    background-color: #4f6457;
+    background-color: #37474F;
 }
 .navbar-nav > li > .dropdown-menu{
     color: white;
-    background-color: #4f6457;
-=======
+    background-color: #37474F;
 }
 .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #37474F;
@@ -75,26 +66,22 @@ background-color: black;
 .navbar-nav > li > .dropdown-menu{
     color: white;
     background-color: #37474F;
->>>>>>> 26c4135726b9d82bb7a94f84a4435eefb846f954
 }
 
 .navbar-nav .dropdown-menu > li > a{
     color: white;
-<<<<<<< HEAD
-    background-color: #4f6457;
+    background-color: #37474F;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
     background-color: #8085A3;
     color: #242331;
-=======
     background-color: #37474F;
 }
 .dropdown-menu > li > a:hover {
     text-decoration: none;
     background-color: white;
     color: #37474F;
->>>>>>> 26c4135726b9d82bb7a94f84a4435eefb846f954
 }
 .dropdown-menu > li > a:focus {
     background-color: #8085A3;
