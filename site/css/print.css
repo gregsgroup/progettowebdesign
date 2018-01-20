@@ -1,5 +1,5 @@
 /*---------CSS PER LA STAMPA---------*/
-.navbar, .carousel, .footer{
+.navbar, .carousel, .footer-basic-centered,.pagination{
     display: none;
 }
 .container{
@@ -8,4 +8,5 @@
 body, .contaner{
     background: none;
     color: #000;
+    font-family: serif;
 }
