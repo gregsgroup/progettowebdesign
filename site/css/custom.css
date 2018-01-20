@@ -205,6 +205,10 @@ background-color: black;
     margin-bottom: 1em;
 }
 
+.imgpartner{
+    width: 100%;
+}
+
 /*------- CSS RICERCA --------*/
 .searchimg{
     width:70%;
