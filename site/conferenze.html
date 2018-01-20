@@ -94,16 +94,16 @@
             <p><a href="index.html">HOMEPAGE</a> / Conferenze</p>
         </div>
         
-        <div class="container">
+        <div class="container text-center">
             <div id="blog"> 
                 <div class="row blogShort">
-                    <h1>Conferenza 1</h1>
+                    <h1 style="text-align: left;">Conferenza 1</h1>
                     <div class="col-xs-3">
                         <img src="img/conf1.gif" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
                     </div>
                     <div class="col-xs-7">
                         <article>
-                            <p>
+                            <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
                                 five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -112,17 +112,17 @@
                     </div>
 
                     <div class="text-center">
-                        <a class="btn btn-primary">Richiedi informazioni</a> 
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodel" role="button" style="margin-bottom: .4em;">Richiedi informazioni</a> 
                     </div>
                 </div>
                 <div class="row blogShort">
-                    <h1>Conferenza 2</h1>
+                    <h1 style="text-align: left;">Conferenza 2</h1>
                     <div class="col-xs-3">
                         <img src="img/conf2.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
                     </div>
                     <div class="col-xs-7">
                         <article>
-                            <p>
+                            <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
                                 five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -130,18 +130,18 @@
                         </article>
                     </div>
                     <div class="text-center">
-                        <a class="btn btn-primary">Richiedi informazioni</a> 
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodel" role="button" style="margin-bottom: .4em;">Richiedi informazioni</a> 
                     </div>
                 </div>
 
                 <div class="row blogShort">
-                    <h1>Conferenza 3</h1>
+                    <h1 style="text-align: left;">Conferenza 3</h1>
                     <div class="col-xs-3">
                         <img src="img/conf3.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
                     </div>
                     <div class="col-xs-7">
                         <article>
-                            <p>
+                            <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
                                 five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -149,10 +149,11 @@
                         </article>
                     </div>
                     <div class="text-center">
-                        <a class="btn btn-primary">Richiedi informazioni</a> 
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodel" role="button" style="margin-bottom: .4em;">Richiedi informazioni</a> 
                     </div>
                 </div>
-                <nav aria-label="Page navigation example">
+                
+                               <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -165,9 +166,59 @@
                         </li>
                     </ul>
                 </nav>
+                
                 <div class="col-md-12 gap10"></div>
             </div>
         </div>
+                    <div class="modal fade" id="confmodel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Inserisci i tuoi dati</h4>
+                        </div>
+                        <div class="modal-body">
+                                            <div class="row setup-content" id="step-1">
+                    <div class="col-xs-6 col-md-offset-3">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label">Nome</label>
+                                <input  maxlength="100" type="text" class="form-control" placeholder="Inserisci nome"  />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Cognome</label>
+                                <input maxlength="100" type="text" class="form-control" placeholder="Inserisci cognome" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Email</label>
+                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Inserisci Email" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodelric" role="button" style="margin-bottom: .4em;" data-dismiss="modal">Invia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="modal fade" id="confmodelric" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Richiesta inviata</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Grazie, la tua richiesta è stata inoltrata con successo!</h6>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <footer class="container-fluid text-center footer-basic-centered">
             <div class="footer-links">
                 <a href="#">Social Media</a>
