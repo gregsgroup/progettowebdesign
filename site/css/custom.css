@@ -418,3 +418,9 @@ background-color: black;
 }
 /*----------FINE TAG CLOUD-------------*/
 
+/*----------FOOTER--------------*/
+@media (max-width: 600px){
+    .footer-basic-centered{
+        padding: 0;
+    }
+}
