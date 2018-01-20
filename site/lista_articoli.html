@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -91,11 +91,26 @@
         <div id="path" class="row">
             <p>HOMEPAGE / categoriaX</p>
         </div>
-
+        
         <!-- CONTENITORE PRINCIPALE -->
         <div class="container text-center">
-            <h1>Categoria X</h1>
+            <h1>Nome Categoria</h1>
+                         
             <div id="articoli" class="col-md-12">
+                 <div class="row" style="margin-bottom: 30px; margin-top: 10px;" >
+                             <div class="col-md-1">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ordina per <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Data</a></li>
+                                        <li><a href="#">Numero visualizzazioni</a></li>
+                                        <li><a href="#">Ordine alfabetico</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                </div>
                 <div class="row">
                     <div class="col-sm-3">
                         <a href="articolo.html"><img src="img/home1.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
@@ -141,6 +156,7 @@
                     </div>
                 </div>
             </div>
+            <div>
             <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     <li class="page-item disabled">
@@ -154,6 +170,7 @@
     </li>
   </ul>
 </nav>
+                </div>
         </div>
 
 
