@@ -5,7 +5,7 @@ html{
 body{
     height:100%;
 }
-/* Remove the navbar's default margin-bottom and rounded borders */ 
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -86,8 +86,12 @@ background-color: black;
 .dropdown-menu > li > a:focus {
     background-color: #8085A3;
 }
-/* Add a gray background color and some padding to the footer */
 
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+    }
+}
 
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
@@ -428,3 +432,4 @@ background-color: black;
         font-size: 10px;
     }
 }
+/*----------FINE FOOTER--------*/
