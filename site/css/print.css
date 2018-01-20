@@ -1,0 +1,11 @@
+/*---------CSS PER LA STAMPA---------*/
+.navbar, .carousel, .footer{
+    display: none;
+}
+.container{
+    width: auto;
+}
+body, .contaner{
+    background: none;
+    color: #000;
+}
