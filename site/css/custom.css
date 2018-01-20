@@ -186,6 +186,15 @@ background-color: black;
     margin-top: .4em;
 }
 
+.form-control.contact{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#testocontatto{
+    resize: none;
+}
+
 /*------- CSS RICERCA --------*/
 .searchimg{
     width:70%;
