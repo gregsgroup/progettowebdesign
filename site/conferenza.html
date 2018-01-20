@@ -33,6 +33,7 @@
                         <span class="icon-bar"></span>                        
                     </button>
                     <a class="navbar-brand" href="index.html">Greg's Site</a>
+                    <a href="#" class="btn btn-default btn-search-nav searchdesktop" data-toggle="modal" data-target="#searchmodal" id="searchmobile"><span class="glyphicon glyphicon-search searchmobile" aria-hidden="true"></span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -69,7 +70,7 @@
                                 <li><a href="lista_articoli.html">Altro</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Archivio</a></li>
+                        <li><a href="lista_articoli.html">Archivio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conferenze<span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -88,10 +89,10 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="input-group">
-                        <input id="searchtext" type="text" class="form-control" placeholder="Ricerca">
+                    <div class="input-group search">
+                        <input id="searchtext" type="text" class="form-control searchdesktop" placeholder="Ricerca">
                         <span class="input-group-btn">
-                            <a href="#" class="btn btn-default btn-search-nav" data-toggle="modal" data-target="#searchmodal">Cerca</a>
+                            <a href="#" class="btn btn-default btn-search-nav searchdesktop" data-toggle="modal" data-target="#searchmodal" id="searchbtn">Cerca</a>
                         </span>
                     </div>
                 </div>
