@@ -169,7 +169,7 @@
                         <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                     </div>
                 </div>
-                                <div class="row">
+                <div class="row">
                     <div class="col-sm-4">
                         <a href="articolo.html"><img src="img/home4.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                         <a href="articolo.html"><p class="titlearticle home">Articolo 4</p></a>
@@ -186,7 +186,7 @@
                         <p class="textarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                     </div>
                 </div>
-                                <div class="row">
+                <div class="row">
                     <div class="col-sm-4">
                         <a href="articolo.html"><img src="img/home4.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                         <a href="articolo.html"><p class="titlearticle home">Articolo 4</p></a>
@@ -304,6 +304,14 @@
         $("#searchbtn").on('click',function(){
             var text = document.getElementById("searchtext").value;
             document.getElementById("query").value = text;
+        });
+        $(document).ready(function() {
+            $("#myCarousel").swiperight(function() {
+                $(this).carousel('prev');
+            });
+            $("#myCarousel").swipeleft(function() {
+                $(this).carousel('next');
+            });
         });
     </script>
 </html>
