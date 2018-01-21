@@ -12,9 +12,9 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css"> -->
-        
-<!-- // -->
+<link rel="stylesheet" href="assets/css/Footer-with-button-logo.css"> -->
+
+        <!-- // -->
     </head>
     <body>
         <!-- NAVBAR -->
@@ -97,15 +97,15 @@
         <div id="path" class="row">
             <p><a href="index.html">HOMEPAGE</a> / Conferenze / Lista Conferenze</p>
         </div>
-        
+
         <div class="container text-center">
             <div id="blog"> 
-                <div class="row blogShort">
+                <div class="row">
                     <h1 style="text-align: left;">Conferenza 1</h1>
-                    <div class="col-xs-3">
-                        <img src="img/conf1.gif" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <div class="col-md-3">
+                        <img src="img/conf1.gif" alt="post img">
                     </div>
-                    <div class="col-xs-7">
+                    <div class="col-md-7">
                         <article>
                             <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -119,12 +119,12 @@
                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodel" role="button" style="margin-bottom: .4em;">Richiedi informazioni</a> 
                     </div>
                 </div>
-                <div class="row blogShort">
+                <div class="row">
                     <h1 style="text-align: left;">Conferenza 2</h1>
-                    <div class="col-xs-3">
-                        <img src="img/conf2.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <div class="col-md-3">
+                        <img src="img/conf2.jpg" alt="post img">
                     </div>
-                    <div class="col-xs-7">
+                    <div class="col-md-7">
                         <article>
                             <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -138,12 +138,12 @@
                     </div>
                 </div>
 
-                <div class="row blogShort">
+                <div class="row">
                     <h1 style="text-align: left;">Conferenza 3</h1>
-                    <div class="col-xs-3">
-                        <img src="img/conf3.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <div class="col-md-3">
+                        <img src="img/conf3.jpg" alt="post img">
                     </div>
-                    <div class="col-xs-7">
+                    <div class="col-md-7">
                         <article>
                             <p style="text-align: left;">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -156,8 +156,8 @@
                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodel" role="button" style="margin-bottom: .4em;">Richiedi informazioni</a> 
                     </div>
                 </div>
-                
-                               <nav aria-label="Page navigation example">
+
+                <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -170,103 +170,103 @@
                         </li>
                     </ul>
                 </nav>
-                
+
                 <div class="col-md-12 gap10"></div>
             </div>
         </div>
-                    <div class="modal fade" id="confmodel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="myModalLabel">Inserisci i tuoi dati</h4>
-                        </div>
-                        <div class="modal-body">
-                                            <div class="row setup-content" id="step-1">
-                    <div class="col-xs-6 col-md-offset-3">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label class="control-label">Nome</label>
-                                <input  maxlength="100" type="text" class="form-control" placeholder="Inserisci nome"  />
+        <div class="modal fade" id="confmodel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Inserisci i tuoi dati</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row setup-content" id="step-1">
+                            <div class="col-xs-6 col-md-offset-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Nome</label>
+                                        <input  maxlength="100" type="text" class="form-control" placeholder="Inserisci nome"  />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Cognome</label>
+                                        <input maxlength="100" type="text" class="form-control" placeholder="Inserisci cognome" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Email</label>
+                                        <input maxlength="100" type="text" required="required" class="form-control" placeholder="Inserisci Email" />
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label class="control-label">Cognome</label>
-                                <input maxlength="100" type="text" class="form-control" placeholder="Inserisci cognome" />
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Email</label>
-                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Inserisci Email" />
-                            </div>
                         </div>
                     </div>
-                </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodelric" role="button" style="margin-bottom: .4em;" data-dismiss="modal">Invia</a>
-                        </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#confmodelric" role="button" style="margin-bottom: .4em;" data-dismiss="modal">Invia</a>
                     </div>
-                </div>
-            </div>
-                    <div class="modal fade" id="confmodelric" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="myModalLabel">Richiesta inviata</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h6>Grazie, la tua richiesta è stata inoltrata con successo!</h6>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <footer id="myFooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h2 class="logo"><a href="index.html"> GREG'S SITE </a></h2>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="informazioni.html">Informazioni azienda</a></li>
-                        <li><a href="chi_siamo.html">Chi siamo</a></li>
-                        <li><a href="contattaci.html">Contattaci</a></li>
-                         <li><a href="lavora_con_noi.html">Lavora con noi</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Servizi</h5>
-                    <ul>
-                        <li><a href="conferenze.html">Informazioni conferenze</a></li>
-                        <li><a href="conferenza.html">Partecipazione conferenze</a></li>
-                        <li><a href="partnership.html">Partnership</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <div class="social-networks">
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                     <a href="contattaci.html" type="button" class="btn btn-default">Contattaci!</a>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
-                        <a href="indice.html">Indice dei contenuti</a>
-            
-            <a href="#"> - </a>
-            
-            <a href="#"> © Copyright</a>
+        <div class="modal fade" id="confmodelric" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Richiesta inviata</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Grazie, la tua richiesta è stata inoltrata con successo!</h6>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2 class="logo"><a href="index.html"> GREG'S SITE </a></h2>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="informazioni.html">Informazioni azienda</a></li>
+                            <li><a href="chi_siamo.html">Chi siamo</a></li>
+                            <li><a href="contattaci.html">Contattaci</a></li>
+                            <li><a href="lavora_con_noi.html">Lavora con noi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Servizi</h5>
+                        <ul>
+                            <li><a href="conferenze.html">Informazioni conferenze</a></li>
+                            <li><a href="conferenza.html">Partecipazione conferenze</a></li>
+                            <li><a href="partnership.html">Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="social-networks">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                        <a href="contattaci.html" type="button" class="btn btn-default">Contattaci!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <a href="indice.html">Indice dei contenuti</a>
+
+                <a href="#"> - </a>
+
+                <a href="#"> © Copyright</a>
+            </div>
+        </footer>
 
         <!-- MODAL DI RICERCA -->
-                <div class="modal fade" id="searchmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+        <div class="modal fade" id="searchmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -361,10 +361,10 @@
                 </div>
             </div>
         </div>
-            <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
     <script>
         $("#searchbtn").on('click',function(){
