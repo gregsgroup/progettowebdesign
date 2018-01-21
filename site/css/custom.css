@@ -19,6 +19,14 @@ body{
     margin-top: .55em;
 }
 
+.pagination.search{
+    margin:0;
+}
+
+.searchnumberresult{
+    margin-top:.5em
+}
+
 .navbar-toggle{
     color: #182E58;
     float: left;
