@@ -9,12 +9,16 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/print.css" rel="stylesheet" media="print">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css"> -->
+        
+<!-- // -->
     </head>
     <body>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -117,14 +121,42 @@
             </div>
         </div>
 
-        <footer class="container-fluid text-center footer-basic-centered">
-            <div class="footer-links">
-                <a href="https://www.facebook.it">Social Media</a>
-                <a href="chi_siamo.html">Contatti</a>
-                <a href="indice.html">Indice sito</a>
-                <a href="chi_siamo.html">Copyright</a>
+       <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="index.html"> GREG'S SITE </a></h2>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="informazioni.html">Informazioni azienda</a></li>
+                        <li><a href="chi_siamo.html">Chi siamo</a></li>
+                        <li><a href="contattaci.html">Contattaci</a></li>
+                         <li><a href="lavora_con_noi.html">Lavora con noi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Servizi</h5>
+                    <ul>
+                        <li><a href="conferenze.html">Informazioni conferenze</a></li>
+                        <li><a href="conferenza.html">Partecipazione conferenze</a></li>
+                        <li><a href="partnership.html">Partnership</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                     <a href="contattaci.html" type="button" class="btn btn-default">Contattaci!</a>
+                </div>
             </div>
-        </footer>
+        </div>
+        <div class="footer-copyright">
+        </div>
+    </footer>
 
         <!-- MODAL DI RICERCA -->
         <div class="modal fade" id="searchmodal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
@@ -202,6 +234,10 @@
                 </div>
             </div>
         </div>
+            <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
     <script>
         $("#searchbtn").on('click',function(){
